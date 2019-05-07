@@ -23,10 +23,7 @@ public class StreamReader{
         @SuppressWarnings("deprecation")
         AmazonKinesisClient client = new AmazonKinesisClient(awsCredentials);
         client.setRegion(RegionUtils.getRegion(amazonRegionName));
-        //GetRecordsResult gggg = client.getRecords(new GetRecordsRequest().clone());
-        //gggg.toString();
-        //System.out.println("\nlist of records:");
-
+        
         long recordNum = 0;
         final int INTERVAL = 2000;
 
