@@ -14,8 +14,8 @@ public class StreamReader{
 
     public static void main( String[] args ) {
 
-        String amazonAccessKey = "AKIA3IEKS2VZJH36KHWQ";
-        String amazonSecretKey = "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";
+        String amazonAccessKey = "XXXXXXXXXXXX";
+        String amazonSecretKey = "XXXXXX/XXXXXXXXXXX+X";
         String amazonStreamName = "fluxKinesis";
         String amazonRegionName = "eu-west-1";
 
